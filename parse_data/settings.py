@@ -1,11 +1,13 @@
+import os
 from pathlib import Path
+from dotenv import load_dotenv
 
-# Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = 'django-insecure-$udf_ef@o_jl$or39ew2-pt_n+0kp(!$vpex&3fhvue4ry&ezx'
+# Load environment variables from .env file
+load_dotenv()
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+SECRET_KEY = os.getenv('SECRET_KEY')
+DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
+
 
 ALLOWED_HOSTS = []
 
@@ -56,11 +58,11 @@ WSGI_APPLICATION = 'parse_data.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'insurance_database',
-        'USER': 'api_user',
-        'PASSWORD': 'be-40-889',
-        'HOST': 'localhost',  
-        'PORT': '5432',      
+        'NAME': os.getenv('DB_NAME'),
+        'USER': os.getenv('DB_USER'),
+        'PASSWORD': os.getenv('DB_PASSWORD'),
+        'HOST': os.getenv('DB_HOST'),
+        'PORT': os.getenv('DB_PORT'),
     }
 }
 

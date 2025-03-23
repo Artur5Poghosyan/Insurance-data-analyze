@@ -1,0 +1,275 @@
+{
+  "reporting_entity_name" : "Aetna Health of California Inc.",
+  "reporting_entity_type" : "Health Insurance Issuer",
+  "reporting_structure" : [ {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAADF PPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-2in-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-2in-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "MHBP-DENTALPPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-2p6-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-2p6-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAHMO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-2qn-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-2qn-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAOpen Access Elect Choice",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-3tn-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-3tn-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAHSA Open Choice",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-44z-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-44z-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAAHF PPO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-4d-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-4d-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAFreedom of Choice DMO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-4oa-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-4oa-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAOpen Access Aetna Health Network Only",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-56f-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-56f-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAHSA Open Access Aetna Health Network Only",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAAHF Open Access Aetna Health Network Only",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-5cg-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-5cg-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAADF PPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAPPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAFreedom of Choice DMO/PPO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "FEDVIPPPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAFreedom of Choice DMO/PPO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    }, {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAPPO Dental 2000",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-5jg-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-5jg-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAHSA Open Choice",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-5od-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-5od-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAOpen Access Aetna Health Network Only",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-5sy-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-5sy-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAOpen Choice",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-5wy-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-5wy-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAOpen Choice",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-6f2-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-6f2-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "FEDERAL EMPLOYEES HEALTH BENEFITS PROGRAM (FEHBP) C/O AETNAAHF PPO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-6hz-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-6hz-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  }, {
+    "reporting_plans" : [ {
+      "plan_name" : "POSTAL SERVICE HEALTH BENEFITS PROGRAM (PSHBP) C/O AETNAFreedom of Choice DMO",
+      "plan_id_type" : "EIN",
+      "plan_id" : "000000000",
+      "plan_market_type" : "group"
+    } ],
+    "in_network_files" : [ {
+      "description" : "in-network file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/inNetworkRates/2025-03-05_pl-j1-hr23_Aetna-Health-of-California-Inc..json.gz"
+    } ],
+    "allowed_amount_file" : {
+      "description" : "allowed amount file",
+      "location" : "https://mrf.healthsparq.com/aetnacvs-egress.nophi.kyruushsq.com/prd/mrf/AETNACVS_I/AFEHBPFI/2025-03-05/allowedAmounts/2025-03-05_pl-j1-hr23_Aetna-Health-of-California-Inc..json.gz"
+    }
+  } ]
+}

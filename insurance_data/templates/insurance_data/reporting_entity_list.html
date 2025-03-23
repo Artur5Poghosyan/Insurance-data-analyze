@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting Entities</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reporting Entities</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Reporting Entity Name</th>
+                <th>Reporting Entity Type</th>
+                <th>Plan Name</th>
+                <th>Plan ID Type</th>
+                <th>Plan ID</th>
+                <th>Plan Market Type</th>
+                <th>In-Network File Description</th>
+                <th>In-Network File Location</th>
+                <th>Allowed Amount File Description</th>
+                <th>Allowed Amount File Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entity in reporting_entities %}
+                {% for plan in entity.reporting_plans.all %}
+                    <tr>
+                        <td>{{ entity.reporting_entity_name }}</td>
+                        <td>{{ entity.reporting_entity_type }}</td>
+                        <td>{{ plan.plan_name }}</td>
+                        <td>{{ plan.plan_id_type }}</td>
+                        <td>{{ plan.plan_id }}</td>
+                        <td>{{ plan.plan_market_type }}</td>
+                        {% for in_network_file in plan.in_network_files.all %}
+                            <td>{{ in_network_file.description }}</td>
+                            <td><a href="{{ in_network_file.location }}" target="_blank">{{ in_network_file.location }}</a></td>
+                        {% endfor %}
+                        {% for allowed_amount_file in plan.allowed_amount_files.all %}
+                            <td>{{ allowed_amount_file.description }}</td>
+                            <td><a href="{{ allowed_amount_file.location }}" target="_blank">{{ allowed_amount_file.location }}</a></td>
+                        {% endfor %}
+                    </tr>
+                {% endfor %}
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- insurance_data/templates/insurance_data/report_list.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Data</title>
+</head>
+<body>
+    <h1>Report Data</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Entity Name</th>
+                <th>Entity Type</th>
+                <th>Last Updated</th>
+                <th>Version</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for report in reports %}
+                <tr>
+                    <td>{{ report.reporting_entity_name }}</td>
+                    <td>{{ report.reporting_entity_type }}</td>
+                    <td>{{ report.last_updated_on }}</td>
+                    <td>{{ report.version }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html> -->
